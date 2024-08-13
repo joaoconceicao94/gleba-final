@@ -244,7 +244,7 @@ const ProductManager = () => {
       {/* Form to Delete Product */}
       {product && (
         <div className="mt-6">
-          <h2 className="text-xl font-semibold">Apagar Product</h2>
+          <h2 className="text-xl font-semibold">Apagar Produto</h2>
           <button
             onClick={handleDelete}
             className="bg-red-500 text-white px-4 py-2 rounded"
